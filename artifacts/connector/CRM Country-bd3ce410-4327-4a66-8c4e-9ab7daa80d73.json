@@ -1,0 +1,17 @@
+{
+	"id": "bd3ce410-4327-4a66-8c4e-9ab7daa80d73",
+	"createdAt": "2021-09-07T11:10:36.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "b64eb827-09a4-4288-905e-6988cb22c3b2",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Country",
+	"description": "Master Data - Country",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.13.941",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

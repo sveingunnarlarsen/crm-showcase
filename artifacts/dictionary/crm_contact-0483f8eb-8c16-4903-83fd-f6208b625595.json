@@ -1,0 +1,44 @@
+{
+	"id": "0483f8eb-8c16-4903-83fd-f6208b625595",
+	"createdAt": "2022-03-13T08:35:33.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "dfb2e0e0-7259-48e2-f9e4-224092ed8e86",
+			"fieldName": "accountid",
+			"fieldType": "text",
+			"description": "Account ID"
+		},
+		{
+			"id": "e14b43a7-71e0-47c4-8e2d-3c6c780f31b4",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name",
+			"isNullable": true
+		},
+		{
+			"id": "afebd281-1a22-4681-89e6-b2ec04cb799e",
+			"fieldName": "email",
+			"fieldType": "text",
+			"description": "eMail",
+			"isNullable": true
+		},
+		{
+			"id": "fbd780c5-fc59-4d9f-ec97-26bf65f10b18",
+			"fieldName": "phone",
+			"fieldType": "text",
+			"description": "Phone",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_contact",
+	"description": "CRM: Contact",
+	"ver": "22.3.13.935",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

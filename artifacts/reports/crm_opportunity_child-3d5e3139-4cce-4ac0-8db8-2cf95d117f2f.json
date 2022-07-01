@@ -1,0 +1,311 @@
+{
+	"id": "3d5e3139-4cce-4ac0-8db8-2cf95d117f2f",
+	"createdAt": "2022-03-13T09:30:00.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "sap-icon://synchronize",
+				"textButtonRun": "",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": true,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Opportunity",
+				"subTitle": "List",
+				"avatarIcon": "sap-icon://opportunities",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					],
+					"dialogHeight": "800px"
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
+					"keyField": [],
+					"dialogHeight": "800px"
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": true,
+				"inset": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account ID",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "text"
+			},
+			{
+				"name": "value",
+				"label": "Value",
+				"type": "decimal"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text"
+			},
+			{
+				"name": "stage",
+				"label": "Stage",
+				"type": "smallint"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": false,
+				"name": "accountid",
+				"text": "Account ID",
+				"fieldPos": 1,
+				"type": "",
+				"lookupTable": "crm_account",
+				"lookupFieldKey": "accountid",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"required": false
+			}
+		],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "accountid",
+				"text": "Account ID",
+				"fieldPos": 2,
+				"type": "Link",
+				"lookupTable": "crm_account",
+				"lookupFieldKey": "accountid",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"editable": false,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "crm_account",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					],
+					"hideKey": false,
+					"butType": "Accept"
+				},
+				"_navigation": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "724a49e8-3bb5-4ac4-807c-8ce4337a7e68",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					],
+					"dialogResize": true,
+					"dialogHeader": false,
+					"dialogTitle": "Account",
+					"dialogTitleField": "name",
+					"dialogIcon": "sap-icon://account",
+					"dialogHeight": "800px"
+				}
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 3
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "stage",
+				"text": "Stage",
+				"fieldPos": 4,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "crm_stage",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "stage",
+							"key": "stage",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"type": "ObjectStatus",
+				"statusIconType": "Fixed",
+				"statusIconFixed": "sap-icon://fa-solid/info-circle",
+				"statusStateType": "Lookup",
+				"statusStateLookup": {
+					"table": "crm_stage",
+					"textField": "state",
+					"keyField": [
+						{
+							"fieldName": "stage",
+							"key": "stage",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"statusTitleType": "",
+				"statusTitleBinding": "stage"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "value",
+				"text": "Value",
+				"fieldPos": 5,
+				"type": "ObjectNumber",
+				"numberUnitType": "Binding",
+				"numberUnitBinding": "currency",
+				"numberUnitFormatter": "",
+				"formatter": "number00"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 6,
+				"formatter": "date00"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 7
+			}
+		],
+		"defaultVariant": {
+			"id": "34c8d38a-fc0a-4680-9a32-922ff5e67d6e",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_opportunity_child",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.3.14.721",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

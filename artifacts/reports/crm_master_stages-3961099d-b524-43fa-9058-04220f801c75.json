@@ -1,0 +1,165 @@
+{
+	"id": "3961099d-b524-43fa-9058-04220f801c75",
+	"createdAt": "2022-03-13T08:42:55.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Stages",
+				"subTitle": "Maintain",
+				"avatarIcon": "sap-icon://step"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "stage",
+				"label": "Stage",
+				"type": "smallint"
+			},
+			{
+				"name": "state",
+				"label": "State",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "stage",
+				"text": "Stage",
+				"fieldPos": 1,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 2,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "state",
+				"text": "State",
+				"fieldPos": 3,
+				"type": "Input",
+				"editable": true
+			}
+		],
+		"defaultVariant": {
+			"id": "463ee32e-3a72-41c2-fb99-e49550a2f3eb",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_master_stages",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "18578381-3289-4c42-8590-e7fb6f107072",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.3.13.1021",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

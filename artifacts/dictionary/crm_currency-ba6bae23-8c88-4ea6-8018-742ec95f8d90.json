@@ -1,0 +1,32 @@
+{
+	"id": "ba6bae23-8c88-4ea6-8018-742ec95f8d90",
+	"createdAt": "2022-03-14T06:37:24.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "dc72d259-968b-441a-d515-f28d2d5e041e",
+			"fieldName": "currency",
+			"fieldType": "text",
+			"description": "Currency",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7ba2a4ab-22f6-41a6-aa1d-db1d6980464b",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_currency",
+	"description": "CRM: Currency",
+	"ver": "22.6.10.168",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

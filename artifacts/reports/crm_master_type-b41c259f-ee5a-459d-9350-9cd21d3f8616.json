@@ -1,0 +1,150 @@
+{
+	"id": "b41c259f-ee5a-459d-9350-9cd21d3f8616",
+	"createdAt": "2022-03-13T09:01:30.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Type",
+				"subTitle": "Maintain",
+				"avatarIcon": "sap-icon://group"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "smallint"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "type",
+				"text": "Type",
+				"fieldPos": 1,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 2,
+				"type": "Input",
+				"editable": true
+			}
+		],
+		"defaultVariant": {
+			"id": "6fb63b45-b1fc-4b9c-b9f9-e1cad83ccc6e",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_master_type",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "1de2443a-8194-4ab7-8f10-c1b98bc521aa",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.3.13.103",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

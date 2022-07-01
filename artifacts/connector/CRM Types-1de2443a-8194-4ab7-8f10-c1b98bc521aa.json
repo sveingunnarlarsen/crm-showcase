@@ -1,0 +1,17 @@
+{
+	"id": "1de2443a-8194-4ab7-8f10-c1b98bc521aa",
+	"createdAt": "2022-03-13T09:01:02.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Types",
+	"description": "Master Data - Types",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.13.101",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

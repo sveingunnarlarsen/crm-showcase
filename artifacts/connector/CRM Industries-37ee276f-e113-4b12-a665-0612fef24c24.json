@@ -1,0 +1,17 @@
+{
+	"id": "37ee276f-e113-4b12-a665-0612fef24c24",
+	"createdAt": "2021-09-07T11:24:07.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "9774916e-6979-46ee-a393-e173d2e2db2f",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Industries",
+	"description": "Master Data - Industries",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.13.1041",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

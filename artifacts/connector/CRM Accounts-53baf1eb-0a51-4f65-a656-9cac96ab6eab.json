@@ -1,0 +1,18 @@
+{
+	"id": "53baf1eb-0a51-4f65-a656-9cac96ab6eab",
+	"createdAt": "2021-09-07T11:09:57.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "a790f7db-d11f-4778-90d6-13b60852be66",
+		"previewable": false,
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Accounts",
+	"description": "Accounts",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.13.941",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

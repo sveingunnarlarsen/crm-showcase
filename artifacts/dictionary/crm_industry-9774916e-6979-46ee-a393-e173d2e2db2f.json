@@ -1,0 +1,31 @@
+{
+	"id": "9774916e-6979-46ee-a393-e173d2e2db2f",
+	"createdAt": "2021-05-24T07:53:25.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "ec6025ce-ec5a-41c8-d213-183aa71324f9",
+			"fieldName": "industry",
+			"fieldType": "smallint",
+			"description": "Industry",
+			"isUnique": true
+		},
+		{
+			"id": "345023cd-0c37-4fbf-f42b-f5257965b308",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_industry",
+	"description": "CRM: Industry",
+	"ver": "22.3.13.944",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

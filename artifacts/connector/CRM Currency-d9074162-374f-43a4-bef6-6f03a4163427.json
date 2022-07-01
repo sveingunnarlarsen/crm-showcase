@@ -1,0 +1,17 @@
+{
+	"id": "d9074162-374f-43a4-bef6-6f03a4163427",
+	"createdAt": "2022-03-14T06:38:04.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "ba6bae23-8c88-4ea6-8018-742ec95f8d90",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Currency",
+	"description": "Master Data - Currency",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.14.738",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

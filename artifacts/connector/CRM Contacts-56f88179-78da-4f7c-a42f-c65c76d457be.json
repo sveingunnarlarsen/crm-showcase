@@ -1,0 +1,17 @@
+{
+	"id": "56f88179-78da-4f7c-a42f-c65c76d457be",
+	"createdAt": "2022-03-14T06:55:16.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "0483f8eb-8c16-4903-83fd-f6208b625595",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Contacts",
+	"description": "Contacts",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.14.755",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

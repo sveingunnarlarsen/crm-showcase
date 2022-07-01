@@ -1,0 +1,38 @@
+{
+	"id": "e7c94f57-8a66-4f3d-98dd-7a3a45c97524",
+	"createdAt": "2022-03-13T08:39:15.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "48ce2aef-aab8-48fe-bfea-3fa5d90c8619",
+			"fieldName": "stage",
+			"fieldType": "smallint",
+			"description": "Stage",
+			"isUnique": true
+		},
+		{
+			"id": "cf7b81a8-d661-47db-a342-e6a6cbe4d708",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name",
+			"isNullable": true
+		},
+		{
+			"id": "d604a5f4-43e7-4a1c-d83e-64839c19878b",
+			"fieldName": "state",
+			"fieldType": "text",
+			"description": "State",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_stage",
+	"description": "CRM: Stage",
+	"ver": "22.3.13.1020",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

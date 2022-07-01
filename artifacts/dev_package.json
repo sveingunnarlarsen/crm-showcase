@@ -1,0 +1,316 @@
+{
+	"id": "8D4579A1-5859-41BA-B61B-FE5647FA7A4E",
+	"createdAt": "2021-05-24T07:51:32.000Z",
+	"createdBy": "admin",
+	"git": {
+		"targetServers": [],
+		"testServers": [],
+		"remote": "https://github.com/sveingunnarlarsen/crm-showcase.git",
+		"path": "C:\\Planet9\\crm-showcase",
+		"readme": [
+			"==OBJECT STRING==",
+			"# CRM Showcase\r",
+			"Showcase Adaptive Framework and CI/CD \r",
+			"\r",
+			"## CRM Main Functions\r",
+			"- Accounts\r",
+			"- Opportunities\r",
+			"- Contacts\r",
+			"\r",
+			"## CRM Master Data\r",
+			"- Currencies\r",
+			"- Countries\r",
+			"- Industries\r",
+			"- Stages\r",
+			"- Type\r",
+			"\r",
+			"\r",
+			"## Setup\r",
+			"Includes Tile/Tile Group/Launchpad setup\r",
+			"\r",
+			""
+		],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"CRM\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"Mini-CRM\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "com.neptune.crmdemo",
+	"description": "Mini-CRM",
+	"ver": "22.7.1.1213",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "A790F7DB-D11F-4778-90D6-13B60852BE66",
+			"name": "crm_account",
+			"description": "CRM: Account"
+		},
+		{
+			"id": "B64EB827-09A4-4288-905E-6988CB22C3B2",
+			"name": "crm_country",
+			"description": "CRM: Country"
+		},
+		{
+			"id": "BA6BAE23-8C88-4EA6-8018-742EC95F8D90",
+			"name": "crm_currency",
+			"description": "CRM: Currency"
+		},
+		{
+			"id": "E7C94F57-8A66-4F3D-98DD-7A3A45C97524",
+			"name": "crm_stage",
+			"description": "CRM: Stage"
+		},
+		{
+			"id": "48986B3F-D383-4EDE-8F5F-A7069A058796",
+			"name": "crm_opportunity",
+			"description": "CRM: Opportunity"
+		},
+		{
+			"id": "A38A516E-4B52-4509-B535-D5A919E9EBDB",
+			"name": "crm_type",
+			"description": "CRM: Account Type"
+		},
+		{
+			"id": "9774916E-6979-46EE-A393-E173D2E2DB2F",
+			"name": "crm_industry",
+			"description": "CRM: Industry"
+		},
+		{
+			"id": "0483F8EB-8C16-4903-83FD-F6208B625595",
+			"name": "crm_contact",
+			"description": "CRM: Contact"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "2460074D-5B67-471A-9398-01427A563809",
+			"name": "crm_contact_child",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "3961099D-B524-43FA-9058-04220F801C75",
+			"name": "crm_master_stages",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "4D47BC5B-0B97-4E4E-860A-04951477BD43",
+			"name": "crm_account_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "2D582F25-EA87-40C1-93BB-0B2CC8D69EC6",
+			"name": "crm_account_country_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "3D5E3139-4CCE-4AC0-8DB8-2CF95D117F2F",
+			"name": "crm_opportunity_child",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "B555AED7-9277-416D-A8BE-37464FA16903",
+			"name": "crm_master_country",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "476AF17E-E699-4771-BC03-76A573267177",
+			"name": "crm_contact_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "724A49E8-3BB5-4AC4-807C-8CE4337A7E68",
+			"name": "crm_account_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4A7331C9-42A4-4AA4-9249-9B08CD5D1D8D",
+			"name": "crm_opportunity_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "CC73C51F-8A08-4F90-B556-9C1A9AF85670",
+			"name": "crm_master_currency",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "B41C259F-EE5A-459D-9350-9CD21D3F8616",
+			"name": "crm_master_type",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "9017F1B9-4561-42A1-8535-C2A27094CECC",
+			"name": "crm_master_industry",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "C3D13886-6F76-452D-8EDD-F816FB313362",
+			"name": "crm_opportunity_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "B8A128C2-E75E-448C-815C-FD25D1FAF9C2",
+			"name": "crm_opportunity_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "FF68745D-AD76-4D9F-8F9F-FF6EE5E8EEED",
+			"name": "crm_account_create",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "465B91B2-4B52-4C63-926A-070E3930EE1A",
+			"description": null,
+			"name": "CRM: Account"
+		},
+		{
+			"id": "6AB0DD8F-244B-44AA-A307-119DBC458CBB",
+			"description": null,
+			"name": "CRM: Opportunity"
+		},
+		{
+			"id": "A84B3832-0869-4628-A6F7-28E825FB596E",
+			"description": null,
+			"name": "CRM: Countries"
+		},
+		{
+			"id": "A9B43E8A-B765-4D48-A561-42A1911ECA90",
+			"description": null,
+			"name": "CRM: Type"
+		},
+		{
+			"id": "DAE73034-7B13-41D2-B600-58A8DB27BD21",
+			"description": null,
+			"name": "CRM: Currencies"
+		},
+		{
+			"id": "DA7BF75F-2C9E-4457-A43A-65BE77322405",
+			"description": null,
+			"name": "CRM: Industry"
+		},
+		{
+			"id": "61E98A37-AA78-4899-8B7F-90195C9F0010",
+			"description": null,
+			"name": "CRM: Stages"
+		}
+	],
+	"category": [
+		{
+			"id": "EB8BD68B-CFE8-448C-94EF-66DEA60D5471",
+			"description": null,
+			"name": "CRM Master Data"
+		},
+		{
+			"id": "8221EC94-7FF2-450A-B4A2-FDE2BA45D378",
+			"description": null,
+			"name": "CRM"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "0F073CAB-D3DC-4790-95A0-583795127284",
+			"name": "CRM",
+			"description": "CRM Showcase"
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "37EE276F-E113-4B12-A665-0612FEF24C24",
+			"name": "CRM Industries",
+			"description": "Master Data - Industries"
+		},
+		{
+			"id": "D9074162-374F-43A4-BEF6-6F03A4163427",
+			"name": "CRM Currency",
+			"description": "Master Data - Currency"
+		},
+		{
+			"id": "BD3CE410-4327-4A66-8C4E-9AB7DAA80D73",
+			"name": "CRM Country",
+			"description": "Master Data - Country"
+		},
+		{
+			"id": "53BAF1EB-0A51-4F65-A656-9CAC96AB6EAB",
+			"name": "CRM Accounts",
+			"description": "Accounts"
+		},
+		{
+			"id": "1DE2443A-8194-4AB7-8F10-C1B98BC521AA",
+			"name": "CRM Types",
+			"description": "Master Data - Types"
+		},
+		{
+			"id": "C75FE2A7-C587-4F46-B0D6-C56697F7D146",
+			"name": "CRM Opportunity",
+			"description": "Opportunity"
+		},
+		{
+			"id": "56F88179-78DA-4F7C-A42F-C65C76D457BE",
+			"name": "CRM Contacts",
+			"description": "Contacts"
+		},
+		{
+			"id": "18578381-3289-4C42-8590-E7FB6F107072",
+			"name": "CRM Stages",
+			"description": "Master Data - Stages"
+		}
+	]
+}

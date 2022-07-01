@@ -1,0 +1,17 @@
+{
+	"id": "18578381-3289-4c42-8590-e7fb6f107072",
+	"createdAt": "2022-03-13T08:40:18.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "e7c94f57-8a66-4f3d-98dd-7a3a45c97524",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Stages",
+	"description": "Master Data - Stages",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.13.942",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

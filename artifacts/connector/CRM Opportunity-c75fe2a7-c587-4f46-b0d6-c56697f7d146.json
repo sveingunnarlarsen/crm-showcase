@@ -1,0 +1,17 @@
+{
+	"id": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
+	"createdAt": "2022-03-13T08:41:19.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "48986b3f-d383-4ede-8f5f-a7069a058796",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Opportunity",
+	"description": "Opportunity",
+	"group": null,
+	"type": "T",
+	"ver": "22.3.13.941",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

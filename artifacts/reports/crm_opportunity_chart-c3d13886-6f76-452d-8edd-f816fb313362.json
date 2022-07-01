@@ -1,0 +1,141 @@
+{
+	"id": "c3d13886-6f76-452d-8edd-f816fb313362",
+	"createdAt": "2022-03-13T09:44:05.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": "1",
+				"initialGroupField": "stage"
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"chartHeight": 250,
+				"chartType": "areaspline",
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": false,
+				"yAxisTitleEnable": false,
+				"chartColor": ""
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account ID",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "stage",
+				"label": "Stage",
+				"type": "smallint"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "value",
+				"label": "Value",
+				"type": "decimal"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "value",
+				"text": "Value",
+				"enableFilter": false,
+				"fieldPos": 1,
+				"type": "value"
+			},
+			{
+				"visible": true,
+				"name": "stage",
+				"text": "Stage",
+				"enableFilter": false,
+				"fieldPos": 2,
+				"type": "category",
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "crm_stage",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "stage",
+							"key": "stage",
+							"value": ""
+						}
+					],
+					"hideKey": false,
+					"butType": "Accept"
+				}
+			}
+		],
+		"defaultVariant": {
+			"id": "95649319-1a89-438f-912b-dc419bf6fdc2",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_opportunity_chart",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.3.14.1722",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
