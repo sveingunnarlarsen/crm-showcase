@@ -60,7 +60,7 @@
 	},
 	"name": "com.neptune.crmdemo",
 	"description": "Mini-CRM",
-	"ver": "22.7.1.1213",
+	"ver": "22.7.5.144",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],

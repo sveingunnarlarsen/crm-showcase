@@ -5,7 +5,7 @@
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
-		"8221ec94-7ff2-450a-b4a2-fde2ba45d378"
+		"8221EC94-7FF2-450A-B4A2-FDE2BA45D378"
 	],
 	"layout": [
 		{
@@ -145,7 +145,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "22.6.7.1622",
+	"ver": "22.7.5.141",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -161,7 +161,7 @@
 			"id": "8221EC94-7FF2-450A-B4A2-FDE2BA45D378",
 			"name": "CRM",
 			"title": "CRM",
-			"ver": "22.3.13.1014"
+			"ver": "22.7.5.142"
 		}
 	]
 }
