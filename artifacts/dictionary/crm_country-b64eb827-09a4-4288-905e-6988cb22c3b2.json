@@ -30,9 +30,9 @@
 	"foreignKeys": [],
 	"name": "crm_country",
 	"description": "CRM: Country",
-	"ver": "22.6.10.1528",
+	"ver": "22.7.5.1415",
 	"enableAudit": false,
-	"includeDataInPackage": false,
+	"includeDataInPackage": true,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"rolesRead": [],
 	"rolesWrite": []
