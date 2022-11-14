@@ -270,7 +270,13 @@
 			"name": "CRM"
 		}
 	],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "4631ca33-2b64-ed11-8523-309c23b13ee9",
+			"name": "CRM-Showcase",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
