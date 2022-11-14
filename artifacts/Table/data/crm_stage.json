@@ -1,0 +1,92 @@
+[
+	{
+		"id": "fdbc7697-464a-475b-bd1f-1aacbd93e809",
+		"createdAt": "1647161360189",
+		"updatedAt": "1647163291799",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 6,
+		"name": "Quote sent/Price confirmed",
+		"state": "Warning"
+	},
+	{
+		"id": "e699bc62-0b10-4370-979c-c23fa968c4d5",
+		"createdAt": "1647161397363",
+		"updatedAt": "1647163517715",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 9,
+		"name": "Lost",
+		"state": "Error"
+	},
+	{
+		"id": "90c68152-a81a-485f-903b-23aae1a8f368",
+		"createdAt": "1647161107907",
+		"updatedAt": "1647163294595",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 2,
+		"name": "Demo/Talks",
+		"state": "None"
+	},
+	{
+		"id": "6e328426-6b56-4949-9d5b-5558c2cf22ac",
+		"createdAt": "1647161387937",
+		"updatedAt": "1647163516660",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 8,
+		"name": "Closed/Signed",
+		"state": "Success"
+	},
+	{
+		"id": "5ee1cded-dec9-4583-94c1-57049204be60",
+		"createdAt": "1647161377537",
+		"updatedAt": "1647163287326",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 7,
+		"name": "PO confirmed",
+		"state": "Success"
+	},
+	{
+		"id": "544c266d-5f90-418e-9c86-565c0ef87a67",
+		"createdAt": "1647161135555",
+		"updatedAt": "1647163289592",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 5,
+		"name": "In confirmation process",
+		"state": "Warning"
+	},
+	{
+		"id": "5373ac1d-3352-4918-9be3-0984e59f593e",
+		"createdAt": "1647161126447",
+		"updatedAt": "1647163289124",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 4,
+		"name": "Decion makers involved",
+		"state": "Warning"
+	},
+	{
+		"id": "48aa0cea-2ded-4280-ba40-d1440cc4382b",
+		"createdAt": "1647161115060",
+		"updatedAt": "1647163288442",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 3,
+		"name": "Work in progress",
+		"state": "Warning"
+	},
+	{
+		"id": "325a2b3a-6035-4840-9bb1-119d87dcae71",
+		"createdAt": "1647161106002",
+		"updatedAt": "1647163270593",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"stage": 1,
+		"name": "Positive towards Neptune",
+		"state": "None"
+	}
+]

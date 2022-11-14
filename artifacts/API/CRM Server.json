@@ -1,0 +1,801 @@
+{
+	"id": "c09e287a-2151-4a00-8fe7-018fa5113307",
+	"createdAt": "2022-10-25T05:42:23.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "e876e7cb-c641-48a3-ebd4-43438d7e8e22",
+			"method": "GET",
+			"path": "/AccountList",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "f4d77772-557a-47f7-e07d-f56727d86df7",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "80f129d0-01f2-466b-d5b6-711b56376399",
+							"name": "Accounts",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "0c5e4ea6-63e5-4f9f-8fb6-85ac4c3cddb9",
+			"tags": "Account"
+		},
+		{
+			"id": "93784100-182c-4211-b36c-773f320f5fa9",
+			"method": "GET",
+			"path": "/AccountDetail",
+			"description": "",
+			"parameters": [
+				{
+					"name": "id",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"id": "2e55136d-a277-4b90-d235-5d5fded88590",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "18fde2c2-9083-4eaa-dca6-9ab2fa8acb35",
+							"name": "Account",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "88353d4a-9d24-45b6-84e8-b8a55e8d689c",
+			"tags": "Account"
+		},
+		{
+			"id": "3705317d-1a25-444c-f885-99a9f5fa114b",
+			"method": "GET",
+			"path": "/MasterData",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "a76f0779-82f1-4306-c451-52f4baa08e54",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "19729b2d-4005-4f87-9184-b223df919849",
+							"name": "MasterData",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "0842fc61-1d83-41aa-80a4-2d1126c9c361"
+		},
+		{
+			"id": "4ac92e28-9545-4e8e-e345-4bf4c6b772a9",
+			"method": "POST",
+			"path": "/AccountSave",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "object",
+					"items": [],
+					"name": "Account"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"tags": "Account",
+			"serverScript": "911a1013-a084-411c-952a-7e8d145bd057"
+		}
+	],
+	"definitions": [
+		{
+			"id": "305f11bd-5cf6-4148-e2c4-71ccb2d6717c",
+			"name": "Accounts",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "fd3f02e9-d2f3-4932-ebdc-ba3f63973df0",
+					"name": "id",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "5e977714-b83e-4076-8e01-11ef757e546f",
+					"name": "updatedAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "ddbd7550-3264-4490-c856-2e7020b47f6a",
+					"name": "updatedBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "5e9a9797-04f2-4266-a99d-fc221c818aed",
+					"name": "accountid",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f459de90-b298-4831-c0be-ceea5ab75072",
+					"name": "name",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "3cb5a819-6be2-430d-9c65-c21cd83a57fb",
+					"name": "country",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "9ee72c9b-c7ff-4c96-cf98-e5cb24add7bf",
+					"name": "type",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e4f78561-014d-453b-fab8-b598edf86605",
+					"name": "countryText",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "5b8cfcb2-f420-4b84-ef1e-dd703c4724a6",
+					"name": "typeText",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "acd92e1c-1e71-486c-a2a8-e35e87db50d1",
+			"name": "Account",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "64966c34-fd8a-46e0-d19a-b2043e5d1227",
+					"name": "id",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "60f6148a-e905-48cc-ec32-e587b322fa87",
+					"name": "createdAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "74635a6c-431e-4e8e-abc0-d2b14b8cdada",
+					"name": "updatedAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "3dced124-0820-41d1-f2f0-f24d15f821d8",
+					"name": "createdBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "eded09ce-0203-4ab9-f685-b964901af0b3",
+					"name": "updatedBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "d77e7c24-d82f-49fe-cdf3-87ff4ae3addd",
+					"name": "accountid",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "852d28d8-2fdb-4a3f-d115-11d7db72a553",
+					"name": "name",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "cab42d2c-6f18-4ea6-a0a8-c68dab569e91",
+					"name": "street",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "street",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "3e93fd0c-3215-4add-846e-3b0d902125a4",
+					"name": "zip",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "zip",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1685a7d1-19d7-426e-b99b-7c300fb49966",
+					"name": "city",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1b246361-870f-4375-e4fd-389d49f49854",
+					"name": "country",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c85f3020-894c-42d5-e43d-4778b5bb584e",
+					"name": "type",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "type",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "3d10f987-2163-444b-f2e1-2e1b18dda88b",
+					"name": "industry",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "474d7908-c558-4052-dedd-1d00221b7fdf",
+			"name": "MasterData",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "40fb7063-68bf-43d9-b511-d77771798b58",
+					"name": "country",
+					"parent": "f316f879-f44c-4b7c-c0b2-5315a20076e5",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "a0d7a058-1781-4cff-d1bf-6d1ae4b4a8fd",
+					"name": "name",
+					"parent": "f316f879-f44c-4b7c-c0b2-5315a20076e5",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f316f879-f44c-4b7c-c0b2-5315a20076e5",
+					"name": "country",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "country",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "40fb7063-68bf-43d9-b511-d77771798b58",
+							"name": "country",
+							"parent": "f316f879-f44c-4b7c-c0b2-5315a20076e5",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "a0d7a058-1781-4cff-d1bf-6d1ae4b4a8fd",
+							"name": "name",
+							"parent": "f316f879-f44c-4b7c-c0b2-5315a20076e5",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "d201abb3-ac5f-4725-e764-b303e320e6e5",
+					"name": "type",
+					"parent": "6500fcef-f259-4e3b-dedc-335b1913b17d",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "6ed34206-9157-4eac-e71e-196ca7edfe4a",
+					"name": "name",
+					"parent": "6500fcef-f259-4e3b-dedc-335b1913b17d",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "6500fcef-f259-4e3b-dedc-335b1913b17d",
+					"name": "type",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "type",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "d201abb3-ac5f-4725-e764-b303e320e6e5",
+							"name": "type",
+							"parent": "6500fcef-f259-4e3b-dedc-335b1913b17d",
+							"description": "",
+							"objectType": "number",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "6ed34206-9157-4eac-e71e-196ca7edfe4a",
+							"name": "name",
+							"parent": "6500fcef-f259-4e3b-dedc-335b1913b17d",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "e6e5ad21-6afe-4796-a5c1-0b36b09344cd",
+					"name": "currency",
+					"parent": "47d6eaf3-c286-4f71-ec41-7ed73195376d",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "4810127a-b9e4-4bba-b3e2-d87ef05d6398",
+					"name": "name",
+					"parent": "47d6eaf3-c286-4f71-ec41-7ed73195376d",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "47d6eaf3-c286-4f71-ec41-7ed73195376d",
+					"name": "currency",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "currency",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "e6e5ad21-6afe-4796-a5c1-0b36b09344cd",
+							"name": "currency",
+							"parent": "47d6eaf3-c286-4f71-ec41-7ed73195376d",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "4810127a-b9e4-4bba-b3e2-d87ef05d6398",
+							"name": "name",
+							"parent": "47d6eaf3-c286-4f71-ec41-7ed73195376d",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "f28010c2-3271-43fa-d18e-3f44f094d7c7",
+					"name": "industry",
+					"parent": "e1784630-fba9-4b51-a040-6e2120d71309",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "b4f0af8a-3b9d-4b59-88f8-2b618bed586f",
+					"name": "name",
+					"parent": "e1784630-fba9-4b51-a040-6e2120d71309",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e1784630-fba9-4b51-a040-6e2120d71309",
+					"name": "industry",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "industry",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "f28010c2-3271-43fa-d18e-3f44f094d7c7",
+							"name": "industry",
+							"parent": "e1784630-fba9-4b51-a040-6e2120d71309",
+							"description": "",
+							"objectType": "number",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "b4f0af8a-3b9d-4b59-88f8-2b618bed586f",
+							"name": "name",
+							"parent": "e1784630-fba9-4b51-a040-6e2120d71309",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "25c1e6ee-db3d-40d6-cd57-89daba1d48e2",
+					"name": "stage",
+					"parent": "e1c7eaf8-7443-4a1c-b51b-ec151b597a3b",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "22b32840-33b6-444e-d1f4-bace33d7c9ae",
+					"name": "name",
+					"parent": "e1c7eaf8-7443-4a1c-b51b-ec151b597a3b",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e1c7eaf8-7443-4a1c-b51b-ec151b597a3b",
+					"name": "stage",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "stage",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "25c1e6ee-db3d-40d6-cd57-89daba1d48e2",
+							"name": "stage",
+							"parent": "e1c7eaf8-7443-4a1c-b51b-ec151b597a3b",
+							"description": "",
+							"objectType": "number",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "22b32840-33b6-444e-d1f4-bace33d7c9ae",
+							"name": "name",
+							"parent": "e1c7eaf8-7443-4a1c-b51b-ec151b597a3b",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "CRM Server",
+	"endpoint": "/api/serverscript/crmserver",
+	"ver": "22.10.25.953",
+	"version": "1.0",
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": true,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"apiGroup": "3f27cd96-71cc-42c6-9d2e-aea69f4421c8",
+	"apiFormat": 0,
+	"roles": []
+}

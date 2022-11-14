@@ -1,0 +1,62 @@
+[
+	{
+		"id": "dda487c5-6bf8-4848-987d-08a66f31a8ce",
+		"createdAt": "1621843169302",
+		"updatedAt": "1647164587014",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"country": "US",
+		"name": "USA",
+		"flagurl": "https://flagcdn.com/40x30/us.png"
+	},
+	{
+		"id": "c5d0c543-fd23-4e0f-a906-3a3af5201945",
+		"createdAt": "1621843169302",
+		"updatedAt": "1647158148371",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"country": "UK",
+		"name": "England",
+		"flagurl": "https://flagcdn.com/40x30/gb.png"
+	},
+	{
+		"id": "baeb2419-ac5d-4533-a9a2-8f45ea8681fb",
+		"createdAt": "1647157973566",
+		"updatedAt": "1647158147043",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"country": "SE",
+		"name": "Sweden",
+		"flagurl": "https://flagcdn.com/40x30/se.png"
+	},
+	{
+		"id": "b0cbe3c6-3e09-4c0c-b7bb-1efca22a058b",
+		"createdAt": "1621843169302",
+		"updatedAt": "1647158146442",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"country": "DE",
+		"name": "Germany",
+		"flagurl": "https://flagcdn.com/40x30/de.png"
+	},
+	{
+		"id": "31207625-47af-4728-bdde-09bffdc35dc6",
+		"createdAt": "1621843169302",
+		"updatedAt": "1647158138705",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"country": "NO",
+		"name": "Norway",
+		"flagurl": "https://flagcdn.com/40x30/no.png"
+	},
+	{
+		"id": "21ad7615-3bdc-4389-b02f-440b1ab39b4e",
+		"createdAt": "1621843169302",
+		"updatedAt": "1647158145718",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"country": "DK",
+		"name": "Denmark",
+		"flagurl": "https://flagcdn.com/40x30/dk.png"
+	}
+]

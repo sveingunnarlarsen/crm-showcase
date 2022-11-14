@@ -1,0 +1,46 @@
+{
+	"id": "0842fc61-1d83-41aa-80a4-2d1126c9c361",
+	"createdAt": "2022-10-25T06:33:27.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
+			"name": "crm_country",
+			"contextname": "crm_country"
+		},
+		{
+			"id": "ba6bae23-8c88-4ea6-8018-742ec95f8d90",
+			"name": "crm_currency",
+			"contextname": "crm_currency"
+		},
+		{
+			"id": "9774916e-6979-46ee-a393-e173d2e2db2f",
+			"name": "crm_industry",
+			"contextname": "crm_industry"
+		},
+		{
+			"id": "e7c94f57-8a66-4f3d-98dd-7a3a45c97524",
+			"name": "crm_stage",
+			"contextname": "crm_stage"
+		},
+		{
+			"id": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
+			"name": "crm_type",
+			"contextname": "crm_type"
+		}
+	],
+	"apis": [],
+	"name": "MasterData",
+	"ver": "22.10.25.1021",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "486141f0-cf9f-4a85-a894-fd2c12fe7968",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

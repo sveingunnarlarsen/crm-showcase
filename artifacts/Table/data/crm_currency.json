@@ -1,0 +1,38 @@
+[
+	{
+		"id": "d21a6a12-61d1-4ac5-bb8a-9bde67a289df",
+		"createdAt": "1647239973698",
+		"updatedAt": "1647239976308",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"currency": "EUR",
+		"name": "Euro"
+	},
+	{
+		"id": "a1a1add8-9efa-4526-a5ea-984cab28e1a2",
+		"createdAt": "1647239978471",
+		"updatedAt": "1667232689888",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"currency": "NOK",
+		"name": "Norwegian Krone"
+	},
+	{
+		"id": "60664747-881d-4688-b603-f289d54ede0f",
+		"createdAt": "1647239987728",
+		"updatedAt": "1647240025267",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"currency": "USD",
+		"name": "United States Dollar"
+	},
+	{
+		"id": "505ca97d-31d7-452e-afe1-c4f1bc500e53",
+		"createdAt": "1647240075649",
+		"updatedAt": "1647240083042",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"currency": "GBP",
+		"name": "British Pound"
+	}
+]

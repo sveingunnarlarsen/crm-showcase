@@ -1,0 +1,39 @@
+{
+	"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
+	"createdAt": "2021-05-24T07:59:00.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "dc069090-8243-4fdc-f31c-8a9192f2222e",
+			"fieldName": "country",
+			"fieldType": "text",
+			"isNullable": false,
+			"description": "Country",
+			"isUnique": false
+		},
+		{
+			"id": "81a09713-c65e-4bd3-d01a-2a090da2c9bb",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isNullable": true,
+			"description": "Name"
+		},
+		{
+			"id": "136aec67-5a99-4ee1-8964-a08e023deb38",
+			"fieldName": "flagurl",
+			"fieldType": "text",
+			"description": "Flag",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_country",
+	"description": "CRM: Country",
+	"ver": "22.10.24.1915",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

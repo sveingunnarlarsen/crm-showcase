@@ -1,0 +1,92 @@
+[
+	{
+		"id": "f30bbe83-b77c-4c4b-9098-82b536f6d773",
+		"createdAt": "1621843084924",
+		"updatedAt": "1647162264015",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 2,
+		"name": "Alliance"
+	},
+	{
+		"id": "e48116c4-e0ac-4537-b1c3-af8e78e3dd6e",
+		"createdAt": "1647162240514",
+		"updatedAt": "1647162254481",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 7,
+		"name": "Partner"
+	},
+	{
+		"id": "d5f52d20-c3cc-4d75-b827-908dd284025e",
+		"createdAt": "1621843084924",
+		"updatedAt": "1647162266098",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 1,
+		"name": "Agent"
+	},
+	{
+		"id": "b2c5b055-6e47-4743-87aa-35f5f0cc0791",
+		"createdAt": "1647162243821",
+		"updatedAt": "1647162250814",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 9,
+		"name": "Press"
+	},
+	{
+		"id": "aeccd6db-ae19-41d3-8e19-0ede57df3c61",
+		"createdAt": "1621843084924",
+		"updatedAt": "1647162262042",
+		"createdBy": "admin",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 3,
+		"name": "Competitor"
+	},
+	{
+		"id": "ad58ac1b-2ba6-4c3e-a2b0-f1a24cb03e86",
+		"createdAt": "1647162242176",
+		"updatedAt": "1647162252952",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 8,
+		"name": "Partner Prospect"
+	},
+	{
+		"id": "8cfd0c35-5286-4b1e-a8ab-442618a873fb",
+		"createdAt": "1647162247059",
+		"updatedAt": "1647162249178",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 10,
+		"name": "Prospect Customer"
+	},
+	{
+		"id": "37de51d9-cf2e-42dc-a2b9-7a9f71162677",
+		"createdAt": "1647162234121",
+		"updatedAt": "1647162259829",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 4,
+		"name": "Customer"
+	},
+	{
+		"id": "23425753-8a01-44db-9f3f-cdb424f2cc33",
+		"createdAt": "1647162238825",
+		"updatedAt": "1647162256096",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 6,
+		"name": "Other"
+	},
+	{
+		"id": "0b60c8e3-2432-44df-bdf9-a776abdba766",
+		"createdAt": "1647162237014",
+		"updatedAt": "1647162258117",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"type": 5,
+		"name": "Inactive Partner"
+	}
+]

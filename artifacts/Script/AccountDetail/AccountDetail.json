@@ -1,0 +1,26 @@
+{
+	"id": "88353d4a-9d24-45b6-84e8-b8a55e8d689c",
+	"createdAt": "2022-10-24T17:31:42.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "a790f7db-d11f-4778-90d6-13b60852be66",
+			"name": "crm_account",
+			"contextname": "crm_account"
+		}
+	],
+	"apis": [],
+	"name": "AccountDetail",
+	"ver": "22.10.25.833",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "486141f0-cf9f-4a85-a894-fd2c12fe7968",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}
